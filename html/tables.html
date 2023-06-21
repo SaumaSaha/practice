@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>table</title>
+    <style>
+      body {
+        font-size: 20px;
+      }
+
+      h1 {
+        margin: 0em;
+        font-size: 3em;
+        border-bottom: 3px solid black;
+      }
+
+      .page {
+        margin: 0 auto;
+        text-align: center;
+        width: 800px;
+      }
+
+      .page > * {
+        margin: 0 auto;
+        margin-bottom: 1em;
+        padding: 0.1em;
+      }
+
+      .student-details {
+        width: 100%;
+        border-collapse: separate;
+        background-color: #e0e0e0;
+        font-size: 1.2em;
+      }
+
+      .student-details th {
+        text-align: left;
+        padding: 0.2em;
+        background-color: black;
+        color: white;
+        border-radius: 0.2em;
+      }
+
+      .student-details td {
+        padding: 0.2em;
+        border: 1px solid white;
+        background-color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <h1>Student Details</h1>
+      </header>
+      <table class="student-details">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sauma</td>
+            <td>22</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>Milan</td>
+            <td>21</td>
+            <td>81</td>
+          </tr>
+          <tr>
+            <td>Utsab</td>
+            <td>20</td>
+            <td>80</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
