@@ -15,6 +15,7 @@ body {
   padding: 1em;
   background: black;
   color: white;
+  z-index: 1;
   position: sticky;
   top: 0em;
 }

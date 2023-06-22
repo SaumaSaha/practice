@@ -11,6 +11,7 @@
 
 .avatar-container {
   height: 25em;
+  margin: 0 auto;
   aspect-ratio: 1;
   border-radius: 1em;
   background: linear-gradient(lightgreen, aqua);
